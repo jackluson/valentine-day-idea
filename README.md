@@ -11,7 +11,7 @@ tags: [Notebooks/blogs, two-anniversary]
 碰巧我们在一起两周年，花了两天码了一个走心的礼物，于是就有了这个小项目的来源
 首先看下实现效果图---一个音乐播放，带图片切换的时间记录器
 
-![](.\screenshots\IMG_0690.GIF)
+![](./screenshots/IMG_0690.GIF)
 
 > **项目地址**：https://github.com/jackluson/to-lover-demo
 
@@ -105,7 +105,7 @@ tags: [Notebooks/blogs, two-anniversary]
     ```
 
   - 设置Open graph(从浏览器分享到社交网络配置)
-    ![如图](.\screenshots\IMG_0694(20190214-151718).jpg)
+    ![如图](./screenshots/IMG_0694(20190214-151718).jpg)
 
     代码如下
 
