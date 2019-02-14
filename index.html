@@ -12,11 +12,12 @@
   <meta name="screen-orientation" content="portrait">
   <meta name="description" content="一个记录我们在一起经过点点滴的idea">
   <meta name="theme-color" content="#f7d7da">
+  <!-- 配置Open graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://jackluson.github.io/to-lover/">
+  <meta property="og:url" content="https://jackluson.github.io/to-lover-demo/">
   <meta property="og:description" content="一个记录“我们在一起走过点点滴滴”的idea">
   <meta property="og:title" content="宝贝,感谢你一直的陪伴！">
-  <meta property="og:image" content="https://jackluson.github.io/to-lover/pic-icon.png">
+  <meta property="og:image" content="https://jackluson.github.io/to-lover-demo/pic-icon.png">
   <meta property="og:image:width" content="140">
   <meta property="og:image:height" content="109">
   <title>宝贝,感谢你一直的陪伴！</title>
@@ -265,7 +266,7 @@
       }, false);
       audioDom.addEventListener('canplaythrough', function () {
           try {
-              // chrome浏览器回报错误---Uncaught（in promise）DOMException：play（）
+              // chrome浏览器没有也页面交互（点击，滚动）之前会报错误---Uncaught（in promise）DOMException：play（）
               //处理方法设置浏览器autoplay-policy---https://blog.csdn.net/super_XYQ/article/details/83026792
               var promise = audioDom.play();
               if (promise !== undefined) {
@@ -311,7 +312,6 @@
           curImgDom.onload = function () {
               $('.img-intro').text(imgDescList[imgIndex]);
           };
-        
       }
       
   }

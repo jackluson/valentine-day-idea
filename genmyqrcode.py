@@ -1,11 +1,11 @@
 import os
 from MyQR import myqr
 version, level, qr_name = myqr.run(
-	'http://120.79.184.238/to-lover/',
+	'https://jackluson.github.io/to-lover-demo/',
 	# 'https://jackluson.github.io/to-lover/',
     version=1,
     level='H',
-    picture='cover.jpg',
+    picture='pic-icon.png',
     colorized=True,
     contrast=1.0,
     brightness=1.0,
