@@ -126,7 +126,7 @@ tags: [Notebooks/blogs, two-anniversary]
 
 1. 这里用到了python脚本生成艺术二维码
 
-   ![如图](.\screenshots\ip_jackLu.png)
+   ![如图](./screenshots/ip_jackLu.png)
 
    ```python
    version, level, qr_name = myqr.run(
