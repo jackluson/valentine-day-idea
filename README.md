@@ -9,7 +9,8 @@ tags: [Notebooks/blogs, two-anniversary]
 
 ### 前言
 碰巧我们在一起两周年，花了两天码了一个走心的礼物，于是就有了这个小项目的来源
-首先看下实现效果图---一个音乐播放，带图片切换的时间记录器
+
+首先看下实现**效果图**---一个音乐播放，带图片切换的时间记录器
 
 ![](.\screenshots\IMG_0690.GIF)
 
@@ -200,4 +201,5 @@ tags: [Notebooks/blogs, two-anniversary]
    word.export(save_name, format="mp3",tags={'artist': 'AppLeU0', 'album': save_name[:-4]})
    ```
 
-   
+### 最后
+其他不啰嗦了,搭建在gitpage上,图片加载应该很慢,有问题多谢能够指出！
