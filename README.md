@@ -5,18 +5,14 @@ modified: '2019-02-14T08:24:00.307Z'
 tags: [Notebooks/blogs, two-anniversary]
 ---
 
-# \#情人节专题#一个记录两个人走过岁月的点点滴滴的idea
+# \#情人节专题#利用three.js实现一个记录两个人走过岁月的点点滴滴的idea
 
 ### 前言
 碰巧我们在一起两周年，花了两天码了一个走心的礼物，于是就有了这个小项目的来源
 
 首先看下实现**效果图**---一个音乐播放，带图片切换的时间记录器
 
-![](.\screenshots\IMG_0690.GIF)
-
-> **项目地址**：https://github.com/jackluson/to-lover-demo
-
-> 如果觉得不错的话，您可以点右上角 "Star" 支持一下 谢谢！ ^_^
+![](./screenshots/IMG_0690.GIF)
 
 ### 技术实现
   - 雪花飘落效果实现
@@ -106,7 +102,7 @@ tags: [Notebooks/blogs, two-anniversary]
     ```
 
   - 设置Open graph(从浏览器分享到社交网络配置)
-    ![如图](.\screenshots\IMG_0694(20190214-151718).jpg)
+    ![如图](./screenshots/IMG_0694(20190214-151718).jpg)
 
     代码如下
 
@@ -127,7 +123,7 @@ tags: [Notebooks/blogs, two-anniversary]
 
 1. 这里用到了python脚本生成艺术二维码
 
-   ![如图](.\screenshots\ip_jackLu.png)
+   ![如图](./screenshots/ip_jackLu.png)
 
    ```python
    version, level, qr_name = myqr.run(
@@ -201,5 +197,6 @@ tags: [Notebooks/blogs, two-anniversary]
    word.export(save_name, format="mp3",tags={'artist': 'AppLeU0', 'album': save_name[:-4]})
    ```
 
-### 最后
-其他不啰嗦了,搭建在gitpage上,图片加载应该很慢,有问题多谢能够指出！
+
+
+> 最后其他不啰嗦了,搭建在gitpage上,图片加载应该很慢,有问题多谢能够指出！
