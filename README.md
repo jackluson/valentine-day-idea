@@ -5,7 +5,9 @@ modified: '2019-02-14T08:24:00.307Z'
 tags: [Notebooks/blogs, two-anniversary]
 ---
 
-# \#情人节专题#利用three.js实现一个记录两个人走过岁月的点点滴滴的idea
+# \#情人节Idea#
+
+利用three.js实现一个记录两个人走过岁月的点点滴滴的idea
 
 ### 前言
 碰巧我们在一起两周年，花了两天码了一个走心的礼物，于是就有了这个小项目的来源
